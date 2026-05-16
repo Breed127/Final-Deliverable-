@@ -1,0 +1,31 @@
+{
+  "name": "final-deliverable-",
+  "version": "1.0.0",
+  "description": "Global Covid Outbreak Tracker: A web application that allows users to track COVID-19 outbreak data by country using real-time public health APIs: Target Browsers: Google Chrome, Microsoft Edge",
+  "homepage": "https://github.com/Breed127/Final-Deliverable-#readme",
+  "bugs": {
+    "url": "https://github.com/Breed127/Final-Deliverable-/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Breed127/Final-Deliverable-.git"
+  },
+  "license": "ISC",
+  "author": "Brandon Reed",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.105.4",
+    "body-parser": "^2.2.2",
+    "dotenv": "^17.4.2",
+    "env": "^0.0.2",
+    "express": "^5.2.1",
+    "i": "^0.3.7",
+    "nodemon": "^3.1.14",
+    "usa-state-validator": "^1.0.6"
+  }
+}
